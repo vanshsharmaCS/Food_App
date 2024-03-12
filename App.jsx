@@ -15,7 +15,7 @@ import Error from "./scr/components/Error";
 import Contact from "./scr/components/Contact";
 import {Cart} from "./scr/components/Cart";
 import CardMenu from "./scr/components/CardMenu";
-import Profile from "./scr/components/Profile";
+import ProfileCard from "./scr/components/Profile";
 
 // this the another way for import we many thing imoprt same file
 // import * as XYZ from "./scr/components/Title.js"
@@ -42,12 +42,10 @@ const AppLayout = () => {
         {
           path: "/about",
           element: <About />,
-          children:[
-            {
-              path:"profile",
-              element:<Profile/>
-            }
-          ]
+        },
+        {
+          path:"/about/profile",
+          element:<ProfileCard/>
         },
         {
           path: "/contact",
