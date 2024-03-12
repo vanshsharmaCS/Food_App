@@ -8,8 +8,8 @@ const ProfileCard = () => {
       <div className="card-container">
       <span className="pro">PRO</span>
       <img className="round" src="https://avatars.githubusercontent.com/u/129921012?v=4" alt="user" />
-      <h3>Ricky Park</h3>
-      <h6>New York</h6>
+      <h3>Vansh Sharma</h3>
+      <h6>Muzaffarnagar</h6>
       <p>User interface designer and <br/> front-end developer</p>
       <div className="buttons">
         <button className="primary">
