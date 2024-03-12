@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+  .logo {
+    width: 100px;
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+  .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Basic styling for the card */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height or use another appropriate value */
+  object-fit: cover;
+}
+
+/* Title styling */
+.card h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+/* Speciality styling */
+.card h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Delivery time styling */
+.card h4 {
+  margin-bottom: 10px;
+  color: #888;
+}
+
+/* Hover effect - Glow */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+/* Basic styling for the card */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 300px; /* Set a fixed width for the card */
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height or use another appropriate value */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Title styling */
+.card h2 {
+  margin: 15px 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Speciality styling */
+.card h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Delivery time styling */
+.card h4 {
+  margin-bottom: 15px;
+  color: #888;
+}
+
+/* Hover effect - Glow */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.restaurant-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* margin: 20px; */
+  justify-items: center;
+  align-items: center;
+}
+
+
+/* Container styling for search */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Search input styling */
+.search-input {
+  width: 200px; /* Set a desired width for the input */
+  padding: 10px;
+  margin-right: 10px; /* Add margin between input and button */
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Search button styling */
+.search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for search button */
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.restaurant-list {
+  flex-wrap: wrap;
+  place-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.search-container {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: background-color .3s ease-in-out;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
+
+/* Container styling */
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+/* Basic styling for the card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 300px; /* Set a fixed width for the card */
+  margin: 20px;
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height or use another appropriate value */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Title styling */
+.card h2 {
+  margin: 15px 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Speciality styling */
+.card h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Delivery time styling */
+.card h4 {
+  margin-bottom: 15px;
+  color: #888;
+}
+
+/* Hover effect - Glow */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* styles.css (or your existing stylesheet) */
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #67cfad; /* Change to your desired header background color */
+  color: #fff; /* Change to your desired text color */
+  padding: 1rem;
+   /* Add rounded corners to the header */
+}
+
+/* Title styles with an image */
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 40px; /* Adjust the image width as needed */
+  height: 40px; /* Adjust the image height as needed */
+  margin-right: 10px; /* Adjust the margin between the image and text */
+}
+
+.title h1 {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: larger;
+  margin-left: 20px;
+}
+/* Navbar styles */
+
+
+/* styles.css (or your existing stylesheet) */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-title {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+/* styles.css (or your existing stylesheet) */
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-title {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-number {
+  color: #666;
+  font-size: 1.5rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.contact-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-image:hover {
+  transform: scale(1.1);
+}
