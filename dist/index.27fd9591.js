@@ -2994,7 +2994,7 @@ const AppLayout = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 28,
+                lineNumber: 27,
                 columnNumber: 9
             }, undefined)
         ]
@@ -3006,20 +3006,28 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "App.jsx",
-            lineNumber: 35,
+            lineNumber: 34,
             columnNumber: 16
         }, undefined),
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "App.jsx",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 21
         }, undefined),
         children: [
             {
+                path: "/",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 39,
+                    columnNumber: 20
+                }, undefined)
+            },
+            {
                 path: "/home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 40,
+                    lineNumber: 43,
                     columnNumber: 20
                 }, undefined)
             },
@@ -3027,7 +3035,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 44,
+                    lineNumber: 47,
                     columnNumber: 20
                 }, undefined)
             },
@@ -3035,7 +3043,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about/profile",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileDefault.default), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 48,
+                    lineNumber: 51,
                     columnNumber: 19
                 }, undefined)
             },
@@ -3043,7 +3051,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 52,
+                    lineNumber: 55,
                     columnNumber: 20
                 }, undefined)
             },
@@ -3051,7 +3059,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/cart",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cart.Cart), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 56,
+                    lineNumber: 59,
                     columnNumber: 20
                 }, undefined)
             },
@@ -3059,7 +3067,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/restaurant/:id",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardMenuDefault.default), {}, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 60,
+                    lineNumber: 63,
                     columnNumber: 20
                 }, undefined)
             }
@@ -3071,7 +3079,7 @@ const root = document.getElementById("root");
     router: appRouter
 }, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 67,
+    lineNumber: 70,
     columnNumber: 36
 }, undefined));
 var _c;

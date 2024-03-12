@@ -23,7 +23,6 @@ const AppLayout = () => {
     return (
       <>
         <Header/>
-        
         {/* <CardMenu/> */}
         <Outlet/>
       </>
@@ -35,6 +34,10 @@ const AppLayout = () => {
       element: <AppLayout />,
       errorElement: <Error />,
       children: [
+        {
+          path: "/",
+          element: <Body />,
+        },
         {
           path: "/home",
           element: <Body />,
